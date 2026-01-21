@@ -2,15 +2,21 @@
 	"version": 1,
 	"type": "panorama",
 	"external": {
-		"js": [],
+		"js": [
+			"https://www.youtube.com/iframe_api",
+			"https://player.vimeo.com/api/player.js",
+			"3rdparty/lottie/lottie.min.js"
+		],
 		"css": []
 	},
-	"skin": {},
+	"skin": {
+		"js": "skin.js"
+	},
 	"vrskin": {},
 	"player": {
 		"js": "pano2vr_player.js"
 	},
-	"creationdate": "2026-01-16T09:13:40.310Z",
+	"creationdate": "2026-01-21T09:17:20.896Z",
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
