@@ -2,7 +2,10 @@
 	"version": 1,
 	"type": "panorama",
 	"external": {
-		"js": [],
+		"js": [
+			"https://www.youtube.com/iframe_api",
+			"https://player.vimeo.com/api/player.js"
+		],
 		"css": []
 	},
 	"skin": {
@@ -12,7 +15,11 @@
 	"player": {
 		"js": "pano2vr_player.js"
 	},
+<<<<<<< HEAD:t01/gginfo.json
 	"creationdate": "2026-01-25T08:02:20.860Z",
+=======
+	"creationdate": "2026-01-23T12:21:12.555Z",
+>>>>>>> e874c79baaa728ca5d203cc9b53c2d9054779313:案例01/gginfo.json
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
